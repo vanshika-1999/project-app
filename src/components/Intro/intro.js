@@ -20,7 +20,7 @@ const Intro = () => {
         <br/>
         and strategic openings within vast and intricate datasets.
         </p>
-        <Link><button className='btn'><img className='btnImg' src={btnImg} alt=''/>Hire me</button></Link>
+        {/* <Link><button className='btn'><img className='btnImg' src={btnImg} alt=''/>Hire me</button></Link> */}
     </div> 
     <img src={bg}  alt='Profile' className='bg'/>
    </section>
