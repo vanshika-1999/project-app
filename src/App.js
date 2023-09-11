@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Contact from './components/Contact/contact';
+import Intro from './components/Intro/intro';
+import Navbar from './components/NavBar/navbar';
+import Skills from './components/Skills/skills';
+import Works from './components/Works/works';
+import PdfViewer from './components/PDF/pdf'
+import samplePdf from './Resume-VanshikaAssudani-0729.pdf'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <Navbar/>
+          <Intro/>
+          {/* <PdfViewer pdf={ samplePdf }/> */}
+          <Skills/>
+          <Works/>
+          <Contact/>
+          
     </div>
   );
 }
